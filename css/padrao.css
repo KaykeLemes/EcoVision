@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+AU+SA:wght@100..400&display=swap');
+
+:root {
+    --tex1: Playwrite AU SA;
+    --tex2: Lato;
+    --tex3: Open Sans;
+    --cor1: #092327;
+    --cor2: #0b5351;
+    --cor3: #00a9a5;
+    --cor4: #4e8098;
+    --cor5: #90c2e7;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+header {
+    display: flex;
+}
+
+.logo {
+    width: 15%;
+    padding: 20px 50px;
+    font-family: var(--tex1);
+    text-align: left;
+    font-size: 1.5em;
+    color: var(--cor1);
+}
+
+nav {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav>a {
+    text-decoration: none;
+    font-family: var(--tex2);
+    font-size: 1.5em;
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    color: #4e8098;
+}
+
+nav>a:hover {
+    text-decoration: overline;
+    color: var(--cor2);
+    font-weight: 700;
+}
+
+#login {
+    width: 25%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 50px;
+}
+
+#login>a {
+    color: white;
+    background-color: var(--cor1);
+    padding: 20px 70px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-family: var(--tex2);
+    font-size: 1.5em;
+    transition: .5s;
+}
+
+#login>a:hover {
+    background-color: var(--cor2);
+    border-radius: 40px;
+    font-weight: bold;
+}
