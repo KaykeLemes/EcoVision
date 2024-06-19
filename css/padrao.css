@@ -90,9 +90,9 @@ main {
 
 .desenho {
     width: 60%;
-    height: 500px;
+    height: 400px;
     margin: auto;
-    background-image: url(../img/logo-eco2.jpg);
+    background-image: url(../img/logo.jpg);
     background-repeat: no-repeat;
     /* border: 1px solid black; */
     background-position: center;
