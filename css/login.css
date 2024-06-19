@@ -1,9 +1,21 @@
+:root {
+    --tex1: Playwrite AU SA;
+    --tex2: Lato;
+    --tex3: Open Sans;
+    --cor1: #092327;
+    --cor2: #0b5351;
+    --cor3: #00a9a5;
+    --cor4: #4e8098;
+    --cor5: #90c2e7;
+}
+
 body {
-    background: url(../img/fundo3.jpg);
+    /* background: url(../img/fundo3.jpg);
     background-position: center;
     background-size: cover;
     width: 400px;
-    height: 600px;
+    height: 600px; */
+    background-image: linear-gradient(250deg, var(--cor2), var(--cor4));
 }
 
 .wrapper {
